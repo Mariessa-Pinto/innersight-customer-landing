@@ -1,7 +1,12 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '/styles/Home.module.css'
 import Footer from '../components/FooterComponent/footer'
+import Nav from '../components/Nav/Nav'
+import purpleBg from '../public/PurpleBg.png'
+import ValueProp from '../components/ValuePropSection/ValueProp'
+import Benefits from '../components/BenefitsSection/Benefits'
+import GetStartedBtn from '../components/Buttons/GetStartedBtn'
+
 
 
 export default function Home() {
@@ -13,155 +18,24 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link
-        href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet"
-      />
+          href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
       </Head>
-    
+      <div className={styles.fullWidthContent}>
+        <Nav />
+        <ValueProp />
+      </div>
+
       <main className={styles.main}>
-      <div className={styles.header}>
-        <div className={styles.top}>
-        <Image
-        src='/logo-word.png'
-        height={80}
-        width={250}
-        alt='logo'
-        />
+        <Benefits />
+        <div className={styles.ctaBottom}>
+          <h2>Ready to Write?</h2>
+          <GetStartedBtn />
         </div>
-      <div className={styles.leftcontent}>
-        <h1 className={styles.title}>Value</h1>
-        <h1 className={styles.title}>Proposition</h1>
-        <h4 className={styles.description}>Innersight is a digital journaling application that uses AI sentiment recognition to analyze your journal entries 
-        to provide helpful insights and reccommendations to guide you on your journey.</h4>
-        <h4 className={styles.description}>Here for you, every step of the way.</h4>
-      </div>
-      <div className={styles.rightcontent}>
-    <div className={styles.blob}>
-      <Image 
-          src='/phone.png'
-          height={495}
-          width={450}
-          alt='iphone'
-          className={styles.phone}
-        />
-
-      </div>
-    </div>
-     </div>
-     <div className={styles.secondcontent}>
-     <h1 className={styles.title2}>What Sets Us Apart</h1>
-     </div>
-     <div className={styles.secondcontent}>
-
-
-     <div className={styles.one}>
-     
-      <div className={styles.blobs}> 
-      <Image 
-      src='/effortless.png'
-      height={108}
-      width={167}
-      alt='computers'
-      />
-
-      </div>
-      <h1 className={styles.onetitle}>Effortless</h1>
-      <h1  className={styles.onetitle}>Journaling</h1>
-      <h4 className={styles.features}>Use the prompt generator to get started 
-        on your journal entry right away. </h4>
-
-     </div>
-     <div className={styles.one}>
-     <div className={styles.blob2}> 
-      <Image 
-      src='/personalized.png'
-      height={123}
-      width={158}
-      alt='personalized'
-      />
-
-      </div>
-     
-      <h1 className={styles.onetitle}>Personalized</h1>
-      <h1  className={styles.onetitle}>reccommendations</h1>
-      <h4 className={styles.features}>View recommendations  based on your entries 
-       can empower and guide your journey.</h4>
-
-     </div>
-     <div className={styles.one}>
-     <div className={styles.blob3}> 
-      <Image 
-      src='/insights.png'
-      height={137}
-      width={96}
-      alt='insights'
-      />
-
-      </div>
-    
-      <h1 className={styles.onetitle}>AI-Based</h1>
-      <h1 className={styles.onetitle}>Insights</h1>
-    
-      <h4 className={styles.features}>Our AI can provide a unique lens about your thoughts and feelings.</h4>
-
-     </div>
-     <div className={styles.one}>
-     <div className={styles.blob4}> 
-      <Image 
-      src='/emotional.png'
-      height={120}
-      width={122}
-      alt='emotion'
-      />
-
-      </div>
-   
-   
-  
-      <h1 className={styles.onetitle}>Discover </h1>
-      <h1 className={styles.onetitle}>Trends</h1>
-
- 
-      <h4 className={styles.features}>Our AI can provide a unique lens about your thoughts and feelings.</h4>
-
-     </div>
-  
-     </div>
-     <div className={styles.thirdcontent}>
-      
-      <div className={styles.row1}>
-
-            <div className={styles.blogcontent}>
-              <h2 className={styles.blogtitle}>Blog Post Title</h2>
-              <h4 className={styles.blogpreview}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</h4>
-
-            </div>
-
-      </div>
-      <div className={styles.row1}>
-
-            <div className={styles.blogcontent}>
-              <h2 className={styles.blogtitle}>Blog Post Title</h2>
-              <h4 className={styles.blogpreview}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</h4>
-
-            </div>
-
-      </div>
-      <div className={styles.row1}>
-
-            <div className={styles.blogcontent}>
-              <h2 className={styles.blogtitle}>Blog Post Title</h2>
-              <h4 className={styles.blogpreview}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</h4>
-
-            </div>
-
-       </div>
-
-     </div>
-
- 
       </main>
       <Footer/>
+
     </>
   )
 }

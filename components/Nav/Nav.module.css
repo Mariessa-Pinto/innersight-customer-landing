@@ -1,0 +1,13 @@
+.main{
+    width: 100%;
+    height: auto;
+    padding: 1% 15%;
+    display: flex;
+    align-items: center;
+    background-color: #d5d7ff;
+    box-sizing: border-box;
+}
+
+.logoImg{
+    object-fit: cover;
+  }
