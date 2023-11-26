@@ -9,65 +9,46 @@ export default function Footer() {
     <>
       <div className={styles.main}>
 
-      <div className={styles.column}>
-        <h1 className={styles.title}>About</h1>
-        <h3 className={styles.link}>Our Story</h3>
-        <h3 className={styles.link}>Meet the team</h3>
-        <h3 className={styles.link}>Blog</h3>
+        <div className={styles.linksContainer}>
+          <div className={styles.aboutContainer}>
+            <h3>About</h3>
+            <h6>Our Story</h6>
+            <h6>Meet the Team</h6>
+            <h6>Blog</h6>
 
-      </div>
-      <div className={styles.column}>
-        <h1 className={styles.title}>Support</h1>
-        <h3 className={styles.link}>Crisis Support Resources</h3>
-        <h3 className={styles.link}>Terms of Service</h3>
-        <h3 className={styles.link}>Privacy Policy</h3>
+          </div>
+          <div className={styles.supportContainer}>
+            <h3>Support</h3>
+            <h6>Crisis Support Resources</h6>
+            <h6>Terms of Service</h6>
+            <h6>Privacy Policy</h6>
 
-      </div>
-      <div className={styles.column}>
-        <h1 className={styles.title}>Contact Us</h1>
-        <h3 className={styles.link}>hello@innersight.ca</h3>
-       
+          </div>
+          <div className={styles.contactContainer}>
+            <h3>Contact Us</h3>
+            <h6> hello@innersight.com</h6>
+            <h6>3700 Willingdon Ave, <br />
+              Burnaby BC <br />
+              V5G 3H2</h6>
 
-      </div>
-      <div className={styles.column2}>
+          </div>
+        </div>
+        <div className={styles.socialsContainer}>
+          <div className={styles.socials}>
+            <Image src="/./socials/insta.png" width={40} height={40}/>
+            <Image src="/./socials/linkedin.png" width={40} height={40}/>
+            <Image src="/./socials/facebook.png" width={40} height={40}/>
+            <Image src="/./socials/x.png" width={30} height={30}/>
 
-      <div className={styles.socials}>
-        <Image 
-        src='/fb.png'
-        height={35}
-        width={35}
-        alt='fb'
-        />
+          </div>
+          <div className={styles.downloadBtn}>
+            <Image src="/./playstore.png" width={16} height={21} />
+            <p>Download the App</p>
 
-        <Image 
-        src='/insta.png'
-        height={35}
-        width={35}
-        alt='insta'
-        />
+          </div>
 
-      <Image 
-        src='/linked.png'
-        height={35}
-        width={35}
-        alt='linked'
-        />
-          <Image 
-        src='/twitter.png'
-        height={35}
-        width={35}
-        alt='linked'
-        />
+        </div>
 
-      </div>
-      <Image 
-      src='/download.png'
-      height={50}
-      width={186}
-      alt='download'
-      />
-      </div>
-     
       </div>
     </>
   );
