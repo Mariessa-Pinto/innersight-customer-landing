@@ -71,6 +71,10 @@
     margin: 0 5%;
 }
 
+.image{
+    width: 25%;
+}
+
 /*Tablet*/
 @media only screen and (max-width: 810px) {
 
