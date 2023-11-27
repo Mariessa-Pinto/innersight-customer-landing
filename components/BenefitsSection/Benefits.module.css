@@ -47,12 +47,14 @@
 
 .blogImage {
     object-fit: cover;
+    width: 100%;
 }
 
 .blogContainer {
     display: flex;
     flex-direction: column;
     position: relative;
+    width: 30%;
 }
 
 .blogContainer > Link {
@@ -71,9 +73,6 @@
     margin: 0 5%;
 }
 
-.image{
-    width: 25%;
-}
 
 /*Tablet*/
 @media only screen and (max-width: 810px) {
