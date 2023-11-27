@@ -1,5 +1,6 @@
 import styles from './Footer.module.css'
 import Image from 'next/image';
+import Link from 'next/link';
 
 
 
@@ -13,8 +14,8 @@ export default function Footer() {
           <div className={styles.aboutContainer}>
             <h3>About</h3>
             <h6>Our Story</h6>
-            <h6>Meet the Team</h6>
-            <h6>Blog</h6>
+            <Link className={styles.link} href="https://innersight-blog.vercel.app/team"><h6>Meet the Team</h6></Link>
+            <Link className={styles.link} href="https://innersight-blog.vercel.app/"><h6>Blog</h6></Link>
 
           </div>
           <div className={styles.supportContainer}>
@@ -35,10 +36,10 @@ export default function Footer() {
         </div>
         <div className={styles.socialsContainer}>
           <div className={styles.socials}>
-            <Image src="/socials/insta.png" width={40} height={40}/>
-            <Image src="/socials/linkedin.png" width={40} height={40}/>
-            <Image src="/socials/facebook.png" width={40} height={40}/>
-            <Image src="/socials/x.png" width={30} height={30}/>
+            <Image src="/socials/insta.png" width={40} height={40} />
+            <Image src="/socials/linkedin.png" width={40} height={40} />
+            <Image src="/socials/facebook.png" width={40} height={40} />
+            <Image src="/socials/x.png" width={30} height={30} />
 
           </div>
           <div className={styles.downloadBtn}>
