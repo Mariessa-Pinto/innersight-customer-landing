@@ -35,14 +35,14 @@ export default function Footer() {
         </div>
         <div className={styles.socialsContainer}>
           <div className={styles.socials}>
-            <Image src="/./socials/insta.png" width={40} height={40}/>
-            <Image src="/./socials/linkedin.png" width={40} height={40}/>
-            <Image src="/./socials/facebook.png" width={40} height={40}/>
-            <Image src="/./socials/x.png" width={30} height={30}/>
+            <Image src="/socials/insta.png" width={40} height={40}/>
+            <Image src="/socials/linkedin.png" width={40} height={40}/>
+            <Image src="/socials/facebook.png" width={40} height={40}/>
+            <Image src="/socials/x.png" width={30} height={30}/>
 
           </div>
           <div className={styles.downloadBtn}>
-            <Image src="/./playstore.png" width={16} height={21} />
+            <Image src="/playstore.png" width={16} height={21} />
             <p>Download the App</p>
 
           </div>
