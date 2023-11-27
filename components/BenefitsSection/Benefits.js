@@ -37,14 +37,14 @@ export default function Benefits() {
                 {
                     blogInfo && blogInfo.post.map((blog, indexBlog) => {
                         return (
-                            <div key={indexBlog}>
+                            <div
+                                key={indexBlog}
+                                className={styles.blogContainer}>
                                 <Link href={blog.link} className={styles.links}>
-                                    <div className={styles.blogContainer}>
-                                        <Image src={blog.img} width={400} height={200} className={styles.blogImage} />
-                                        <div className={styles.blogText}>
-                                            <h3>{blog.title}</h3>
-                                            <p>{blog.excerpt}</p>
-                                        </div>
+                                    <Image src={blog.img} width={400} height={200} className={styles.blogImage} />
+                                    <div className={styles.blogText}>
+                                        <h3>{blog.title}</h3>
+                                        <p>{blog.excerpt}</p>
                                     </div>
                                 </Link>
                             </div>

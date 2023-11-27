@@ -1,108 +1,116 @@
-.main{
+.main {
     display: flex;
     flex-direction: column;
     gap: 4em;
 }
 
-.links{
+.links {
     text-decoration: none;
     color: inherit;
 }
 
-.links:hover{
+.links:hover {
     color: #6164C3;
 }
 
-.benefits{
+.benefits {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 
 }
 
-.benefitsCards{
+.benefitsCards {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.benefitContainer{
+.benefitContainer {
     display: flex;
     flex-direction: column;
     width: 20%;
     text-align: center;
 }
 
-.benefitContainer > h3{
+.benefitContainer>h3 {
     height: 2rem;
 }
 
-.blog{
+.blog {
     display: flex;
     flex-direction: row;
-    gap: 5em;
+    justify-content: space-between;
     margin-bottom: 10em;
+    width: 100%;
 }
 
-.blogImage{
+.blogImage {
     object-fit: cover;
 }
 
-.blogContainer{
+.blogContainer {
     display: flex;
     flex-direction: column;
-    align-items: center;
     position: relative;
 }
 
-.blogText{
+.blogContainer > Link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blogText {
     background-color: #FDFDFD;
     width: 90%;
     position: absolute;
     top: 75%;
     padding: 0 1em;
     box-sizing: border-box;
+    margin: 0 5%;
 }
 
 /*Tablet*/
 @media only screen and (max-width: 810px) {
 
-.benefitsCards{
-flex-wrap: wrap;
+    .benefitsCards {
+        flex-wrap: wrap;
+    }
+
+    .benefitContainer {
+        width: 50%;
+    }
+
+    .blog {
+        flex-direction: column;
+        gap: 8em;
+    }
+
+    .blogImage {
+        width: 100%;
+
+    }
 }
 
-.benefitContainer{
-    width: 50%;
-}
-
-.blog{
-    flex-direction: column;
-    gap: 8em;
-}
-
-.blogImage{
-    width: 100%;
-
-}
-
-.blogText{
-    width: 100%;
-}
-  }
-
-    /*Mobile*/
+/*Mobile*/
 @media only screen and (max-width: 475px) {
-.benefitContainer{
-    width: 100%;
+    .benefitContainer {
+        width: 100%;
 
-    align-items: center;
+        align-items: center;
+    }
+
+    .blog {
+        flex-direction: column;
+        gap: 10em;
+    }
+
+    .blogContainer{
+        margin-bottom: 2em;
+    }
+
+    .benefits > h2{
+        text-align: center;
+    }
 }
-
-.blog{
-    flex-direction: column;
-    gap: 10em;
-}
-      }
-    
-
-
