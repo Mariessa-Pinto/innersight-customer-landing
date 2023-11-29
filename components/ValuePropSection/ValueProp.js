@@ -1,4 +1,3 @@
-
 import GetStartedBtn from '../Buttons/GetStartedBtn'
 import styles from './Value.module.css'
 import Image from 'next/image'
@@ -9,19 +8,17 @@ export default function ValueProp() {
             <Image src='/PurpleBg.png' width={1440} height={700} className={styles.valueBg} />
             <div className={styles.content}>
                 <div className={styles.txtContent}>
-                    <h1>Write your thoughts. <br/>Let AI handle the rest.</h1>
+                    <h1>Write your thoughts. <br />Let AI handle the rest.</h1>
                     <p>
                         Innersight is a journal app that utilizes artificial intelligence to help find problems in your day to day life and give insights on how to covercome these struggles.
                     </p>
                     <p>
                         Your personal mental health companion.
                     </p>
-                    <GetStartedBtn/>
-
+                    <GetStartedBtn />
                 </div>
                 <div className={styles.imageContent}>
                     <Image src='/phone_blob.png' height={655} width={655} className={styles.phoneImg} />
-
                 </div>
             </div>
         </div>

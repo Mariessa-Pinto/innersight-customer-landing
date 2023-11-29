@@ -7,14 +7,12 @@
     position: absolute;
     z-index: -1;
 }
-
 .content{
     display: flex;
     flex-direction: row;
     padding: 1% 15%;
     gap: 2em;
 }
-
 .txtContent{
     width: 45%;
     display: flex;
@@ -22,24 +20,21 @@
     justify-content: center;
 }
 
-
 /*Tablet*/
 @media only screen and (max-width: 810px) {
-
     .content{
         flex-direction: column-reverse;
     }
-
     .txtContent{
         width: 100%
     }
-  }
-
-  /*Mobile*/
-@media only screen and (max-width: 475px) {
-.phoneImg{
-    display: none;
 }
-  }
+
+/*Mobile*/
+@media only screen and (max-width: 475px) {
+    .phoneImg{
+        display: none;
+    }
+}
 
 

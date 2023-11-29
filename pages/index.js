@@ -7,8 +7,6 @@ import ValueProp from '../components/ValuePropSection/ValueProp'
 import Benefits from '../components/BenefitsSection/Benefits'
 import GetStartedBtn from '../components/Buttons/GetStartedBtn'
 
-
-
 export default function Home() {
   return (
     <>
@@ -26,7 +24,6 @@ export default function Home() {
         <Nav />
         <ValueProp />
       </div>
-
       <main className={styles.main}>
         <Benefits />
         <div className={styles.ctaBottom}>
@@ -34,8 +31,7 @@ export default function Home() {
           <GetStartedBtn />
         </div>
       </main>
-      <Footer/>
-
+      <Footer />
     </>
   )
 }
