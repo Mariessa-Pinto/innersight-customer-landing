@@ -55,19 +55,16 @@
 
 /*Tablet*/
 @media only screen and (max-width: 810px) {
-.main{
-    gap: 1em;
+    .main{
+        gap: 1em;
+    }
 }
 
-      }
-
-      /*Mobile*/
+/*Mobile*/
 @media only screen and (max-width: 475px) {
-
     .main, .linksContainer{
         flex-direction: column;
     }
-
     .main{
         padding: 5% 15%;
     }

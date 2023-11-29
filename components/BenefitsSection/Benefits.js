@@ -5,7 +5,6 @@ import { blogData } from '../../data/BlogData'
 import Image from 'next/image'
 import Link from 'next/link'
 
-
 export default function Benefits() {
 
     const [data, setData] = useState(valuesData)
@@ -26,12 +25,10 @@ export default function Benefits() {
                                     <h3>{i.title}</h3>
                                     <p>{i.description}</p>
                                 </div>
-
                             )
                         })
                     }
                 </div>
-
             </div>
             <div className={styles.blog}>
                 {
@@ -48,13 +45,10 @@ export default function Benefits() {
                                     </div>
                                 </Link>
                             </div>
-
-
                         )
                     })
                 }
             </div>
-
         </div>
     )
 }
