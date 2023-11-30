@@ -14,10 +14,19 @@
     gap: 2em;
 }
 .txtContent{
-    width: 45%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.imageContent{
+    width: 50%
+}
+
+.phoneImg{
+    width: 100%;
+    object-fit: contain;
 }
 
 /*Tablet*/
@@ -25,7 +34,8 @@
     .content{
         flex-direction: column-reverse;
     }
-    .txtContent{
+    .txtContent,
+    .imageContent{
         width: 100%
     }
 }

@@ -2,6 +2,10 @@
   padding: 1% 15%;
 }
 
+.fullWidthContent{
+  margin-bottom: 4rem;
+}
+
 .valuePropSection{
   background-image: '';
 }

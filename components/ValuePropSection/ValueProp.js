@@ -1,6 +1,7 @@
 import GetStartedBtn from '../Buttons/GetStartedBtn'
 import styles from './Value.module.css'
 import Image from 'next/image'
+import phoneBlob from '../../public/phone-mockup_2.svg'
 
 export default function ValueProp() {
     return (
@@ -18,7 +19,8 @@ export default function ValueProp() {
                     <GetStartedBtn />
                 </div>
                 <div className={styles.imageContent}>
-                    <Image src='/phone_blob.png' height={655} width={655} className={styles.phoneImg} />
+                    <Image src={phoneBlob} className={styles.phoneImg} />
+                
                 </div>
             </div>
         </div>

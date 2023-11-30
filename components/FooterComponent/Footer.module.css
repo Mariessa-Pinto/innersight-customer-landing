@@ -58,6 +58,9 @@
     .main{
         gap: 1em;
     }
+    .linksContainer{
+        flex-direction: column;
+    }
 }
 
 /*Mobile*/
