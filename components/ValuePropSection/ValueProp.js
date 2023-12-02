@@ -1,7 +1,7 @@
 import GetStartedBtn from '../Buttons/GetStartedBtn'
 import styles from './Value.module.css'
 import Image from 'next/image'
-import phoneBlob from '../../public/phone-mockup_2.svg'
+import phoneBlob from '../../public/phone_blob_background.png'
 
 export default function ValueProp() {
     return (
@@ -19,9 +19,18 @@ export default function ValueProp() {
                     <GetStartedBtn />
                 </div>
                 <div className={styles.imageContent}>
-                    <Image src={phoneBlob} className={styles.phoneImg} />
+                <video style={{width: 100 + '%', borderRadius: 75}} autoPlay muted>
+                    <source 
+                    src={require('../../public/CustomerLandingPageVideo_1.mp4')}  
+                    type="video/mp4"/>
+                </video>
                 
                 </div>
+                            {/* <div className={styles.demo}>
+
+               
+
+            </div> */}
             </div>
         </div>
     )
