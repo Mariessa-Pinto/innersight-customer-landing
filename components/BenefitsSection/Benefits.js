@@ -30,15 +30,6 @@ export default function Benefits() {
                     }
                 </div>
             </div>
-            {/* <div className={styles.demo}>
-
-                <video style={{width: 100 + '%'}}>
-                    <source 
-                    src={require('../../public/CustomerLandingPageVideo.mp4')}  
-                    type="video/mp4"/>
-                </video>
-
-            </div> */}
             <div className={styles.blog}>
                 {
                     blogInfo && blogInfo.post.map((blog, indexBlog) => {
