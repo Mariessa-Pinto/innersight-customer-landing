@@ -19,6 +19,9 @@
     display: 'flex';
     flex-direction: 'column';
 }
+.agreement {
+    margin-top:10rem;
+}
 
 /*Tablet*/
 @media only screen and (max-width: 810px) {

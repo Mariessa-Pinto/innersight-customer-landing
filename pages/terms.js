@@ -52,6 +52,7 @@ export default function Terms() {
                             :
                             ""
                     ))}
+                    <h4 className={styles.agreement}>By using innersight, you acknowledge that you have read, understood, and agree to these Terms of Service.</h4>
             </main>
             <Footer />
         </>

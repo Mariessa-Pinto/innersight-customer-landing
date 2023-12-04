@@ -28,7 +28,7 @@ const PolicyData = {
         {
             page: "Privacy Policy",
             header: "User Control",
-            content: "You maintain control over your personal information. Within the app, you can access, modify, or delete your data. If you choose to terminate your account, please contact us at info@innersight.com.",
+            content: "You maintain control over your personal information. Within the app, you can access, modify, or delete your data. If you choose to terminate your account, please contact us at mpinto13@my.bcit.ca.",
         },
         {
             page: "Privacy Policy",
@@ -43,12 +43,12 @@ const PolicyData = {
         {
             page: "Terms",
             header: "Acceptance of Terms",
-            content: "By using InnerSight, you agree to abide by these Terms of Service. If you do not agree with any part of these terms, please refrain from using the app.",
+            content: "By using innersight, you agree to abide by these Terms of Service. If you do not agree with any part of these terms, please refrain from using the app.",
         },
         {
             page: "Terms",
             header: "User Eligibility",
-            content: "You must be at least 18 years old to use InnerSight. By using the app, you confirm that you meet this eligibility criterion.",
+            content: "You must be at least 18 years old to use innersight. By using the app, you confirm that you meet this eligibility criterion.",
         },
         {
             page: "Terms",
@@ -58,22 +58,22 @@ const PolicyData = {
         {
             page: "Terms",
             header: "Use of AI",
-            content: "InnerSight utilizes artificial intelligence to analyze journal entries. While the AI provides insights, it is not a substitute for professional advice. Always consult with a qualified mental health professional for personalized guidance.",
+            content: "Innersight utilizes artificial intelligence to analyze journal entries. While the AI provides insights, it is not a substitute for professional advice. Always consult with a qualified mental health professional for personalized guidance.",
         },
         {
             page: "Terms",
             header: "User Responsibilities",
-            content: "You are responsible for the content of your journal entries. Do not include sensitive personal information that you are uncomfortable sharing. InnerSight is not liable for any consequences arising from the content of your journal entries.",
+            content: "You are responsible for the content of your journal entries. Do not include sensitive personal information that you are uncomfortable sharing. innersight is not liable for any consequences arising from the content of your journal entries.",
         },
         {
             page: "Terms",
             header: "Emergency Situations",
-            content: "In case of a mental health crisis or emergency, do not solely rely on the app. Contact emergency services or a mental health professional immediately. InnerSight is not a crisis intervention tool.",
+            content: "In case of a mental health crisis or emergency, do not solely rely on the app. Contact emergency services or a mental health professional immediately. innersight is not a crisis intervention tool.",
         },
         {
             page: "Terms",
             header: "User Conduct",
-            content: "Users must adhere to ethical standards when using InnerSight. Harassment, hate speech, or any form of inappropriate content will not be tolerated.",
+            content: "Users must adhere to ethical standards when using innersight. Harassment, hate speech, or any form of inappropriate content will not be tolerated.",
         },
         {
             page: "Terms",
@@ -83,12 +83,12 @@ const PolicyData = {
         {
             page: "Terms",
             header: "Changes to Terms",
-            content: "We may update these terms periodically. By continuing to use InnerSight after such changes, you agree to the modified terms.",
+            content: "We may update these terms periodically. By continuing to use innersight after such changes, you agree to the modified terms.",
         },
         {
             page: "Terms",
             header: "Contact Information",
-            content: "For questions or concerns regarding these terms, please contact InnerSight at info@innersight.com.",
+            content: "For questions or concerns regarding these terms, please contact innersight at mpinto13@my.bcit.ca.",
         },
     ]
 };
