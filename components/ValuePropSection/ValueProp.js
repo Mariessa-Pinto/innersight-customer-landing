@@ -26,11 +26,7 @@ export default function ValueProp() {
                 </video>
                 
                 </div>
-                            {/* <div className={styles.demo}>
 
-               
-
-            </div> */}
             </div>
         </div>
     )

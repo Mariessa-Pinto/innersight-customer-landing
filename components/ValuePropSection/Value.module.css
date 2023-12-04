@@ -7,6 +7,8 @@
     width: 100%;
     position: absolute;
     z-index: -1;
+    opacity: 0.9;
+    object-fit: cover;
 }
 
 .content {
