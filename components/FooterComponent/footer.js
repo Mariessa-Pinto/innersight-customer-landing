@@ -17,7 +17,9 @@ export default function Footer() {
             <h3>Support</h3>
             <h6>Crisis Support Resources</h6>
             <h6>Terms of Service</h6>
-            <h6>Privacy Policy</h6>
+            <Link href='privacy' className={styles.link}>
+              <h6>Privacy Policy</h6>
+            </Link>
           </div>
           <div className={styles.contactContainer}>
             <h3>Contact Us</h3>

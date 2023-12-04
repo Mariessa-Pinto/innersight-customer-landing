@@ -1,0 +1,37 @@
+.main {
+    display: 'flex';
+    flex-direction: "column";
+    align-items: 'flex-start';
+    padding-right: 19.5rem;
+    padding-left: 15rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.top {
+    align-items: 'center';
+    margin-top: 6;
+}
+.content2 {
+    display: 'flex';
+    margin-top: 10;
+}
+.questionContainer {
+    display: 'flex';
+    flex-direction: 'column';
+}
+
+/*Tablet*/
+@media only screen and (max-width: 810px) {
+    .main{
+        padding-right: 8rem;
+        padding-left: 8rem;
+    }
+}
+
+/*Mobile*/
+@media only screen and (max-width: 475px) {
+    .main{
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+}
