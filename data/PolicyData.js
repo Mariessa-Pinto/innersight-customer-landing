@@ -41,11 +41,6 @@ const PolicyData = {
             content: "Our app is intended for users aged 18 and above. We do not knowingly collect personal information from children. If you become aware that a child has provided us with personal information, please contact us immediately.",
         },
         {
-            page: "Privacy Policy",
-            header: "Children's Privacy",
-            content: "Our app is intended for users aged 18 and above. We do not knowingly collect personal information from children. If you become aware that a child has provided us with personal information, please contact us immediately.",
-        },
-        {
             page: "Terms",
             header: "Acceptance of Terms",
             content: "By using InnerSight, you agree to abide by these Terms of Service. If you do not agree with any part of these terms, please refrain from using the app.",
