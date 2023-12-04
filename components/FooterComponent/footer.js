@@ -16,7 +16,9 @@ export default function Footer() {
           <div className={styles.supportContainer}>
             <h3>Support</h3>
             <h6>Crisis Support Resources</h6>
+            <Link href='terms' className={styles.link}>
             <h6>Terms of Service</h6>
+            </Link>
             <Link href='privacy' className={styles.link}>
               <h6>Privacy Policy</h6>
             </Link>
