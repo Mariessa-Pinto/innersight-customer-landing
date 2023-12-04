@@ -4,7 +4,7 @@
     padding: 1% 15%;
     display: flex;
     align-items: center;
-    background-color: #d5d7ff;
+    background-color: rgba(213, 215, 255, 0.9);
     box-sizing: border-box;
 }
 .logoImg{
